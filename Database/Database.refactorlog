@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="11699855-39f5-475a-a264-a0fcfb8ba041" ChangeDateTime="01/12/2020 22:20:04">
+    <Property Name="ElementName" Value="[dbo].[FK_Task_ToUser]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Exercise]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Exercise_ToUser]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7c010969-e146-4678-8cfc-c7bc4e91b70e" ChangeDateTime="01/12/2020 22:20:09">
+    <Property Name="ElementName" Value="[dbo].[FK_Task_ToTheme]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Exercise]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Exercise_ToTheme]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5975746a-36ee-4d04-bb19-306c310c6031" ChangeDateTime="01/12/2020 22:26:39">
+    <Property Name="ElementName" Value="[dbo].[GroupTask].[TaskId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[GroupTask]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ExerciseId" />
+  </Operation>
+</Operations>
